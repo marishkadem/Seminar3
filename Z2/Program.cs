@@ -18,6 +18,5 @@ System.Console.Write("Введите координаты a третьей то�
 int a3 = Convert.ToInt32(Console.ReadLine());
 System.Console.Write("Введите координаты b третьей точки: ");
 int b3 = Convert.ToInt32(Console.ReadLine());
-
 double rez = Math.Sqrt(Math.Pow((a1-b1),2)+Math.Pow((a2-b2),2)+Math.Pow((a3-b3),2));
 System.Console.WriteLine(rez);

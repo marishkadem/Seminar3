@@ -2,8 +2,15 @@
 3 -> 1, 8, 27
 5 -> 1, 8, 27, 64, 125 */
 
-System.Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
-for(int i = 1; i <= n; i++) {
-    System.Console.WriteLine(Math.Pow((i), 3));
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.Write("Введите число: ");
+        int n = Convert.ToInt32(Console.ReadLine());
+        for (int i = 1; i <= n; i++)
+        {
+            Console.WriteLine(Math.Pow(i, 3));
+        }
+    }
 }
